@@ -27,7 +27,7 @@ function writeFile() {
 // 4. Example - results
 function result() {
     // 4.1 readFile
-    fs.readFile('./files/results.txt', 'utf8', function(err, dataStr) {
+    fs.readFile('/Users/lvhonghua/Desktop/front-end/Node + npm/files/results.txt', 'utf8', function(err, dataStr) {
         if (err) {
             return console.log('read file error!' + err.message)
         } 
@@ -49,4 +49,4 @@ function result() {
         })
     })
 }
-// result()
+result()
