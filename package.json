@@ -3,7 +3,9 @@
     "art-template": "^4.13.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "express-session": "^1.17.3",
     "moment": "^2.29.4",
+    "mysql": "^2.18.1",
     "nodemon": "^2.0.20"
   }
 }
