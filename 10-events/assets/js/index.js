@@ -32,6 +32,7 @@ function getUserInfo() {
                 return layui.layer.msg('获取用户信息失败！')
             }
             renderAvatar(res.data)
+                // console.log(res)
         }
     })
 }
